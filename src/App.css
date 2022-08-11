@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.statue {
+  color: whitesmoke;
+  background-color: rgb(66, 66, 104);
+  background: linear-gradient(105deg, );
+  box-shadow: inset 2px 2px 3px #555,
+              inset -2px -2px -3px rgb(161, 169, 199);
+}
+.statue:hover {
+  filter: drop-shadow(0 0 2em #646cffaa)
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.dress {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.dress:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.dress:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes dress-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .dress {
+    animation: dress-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  color: rgb(27, 27, 27);
+  text-shadow: #555;
+}
+
+.read-the-docs {
+  color: rgb(59, 59, 59);
+}
